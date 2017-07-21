@@ -1,4 +1,4 @@
 body {
-  background: url("../images/site.jpg") no-repeat 0 0/cover #bebebe;
+  height: 100vh;
   margin: 0;
-  height: 100vh; }
+  background: url("../assets/site.jpg") no-repeat 0 0/cover #bebebe; }
