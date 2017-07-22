@@ -11,22 +11,60 @@ header {
   min-width: 410px;
   height: 100%;
   background: url("../assets/bg.png") 99% 50%/cover;
-
-  nav {
-  font-family: 'Six Caps', sans-serif;
-  }
   
   img {
-  opacity: 0.7;
+    position: relative;
+    left: calc(45% - 155px);
+    opacity: 0.8;
+  }
+
+  nav {
+    width: 95%;
+    text-align: center;
+    
+    a {
+      margin: 3px;
+      padding: 3px;
+      border-bottom: 1px dashed #fff;
+      font: 400 32px 'Six Caps', sans-serif;
+      text-transform: lowercase;
+      text-decoration: none;
+      color: #fff;
+      opacity: 0.8;
+      
+      &:hover {
+        text-decoration: none;
+        color: #fff;
+        opacity: 1;
+      }
+    }
   }
 }
 
 main {
   float: right;
-  width: 55%;
-  padding: 5%;
+  width: 41%;
+  min-width: 410px;
+  height: 100%;
+  padding: 0 4% 0 10%;
   overflow: hidden;
   font-family: 'Raleway', sans-serif; 
+  line-height: 1.4em;
   background: #fff;
+  
+  section {
+    height: 100vh;
+    
+    h2 {
+      margin-top: 50px;
+      font: 400 62px/2em 'Six Caps', sans-serif;
+      text-transform: lowercase;
+      letter-spacing: 5px;
+    }
+  }
+  
+  audio {
+    display: block;
+  }
 }
   
